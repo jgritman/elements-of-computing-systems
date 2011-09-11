@@ -1,0 +1,1 @@
+Implementations of exercises from the book *The Elements of Computing Systems: Building a Modern Computer from First Principles* by Noam Nisan and Shimon Schocken.  The book's webpage can be found [here](http://www1.idc.ac.il/tecs/).
