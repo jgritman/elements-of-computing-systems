@@ -1,0 +1,10 @@
+CHIP ConditionalZeroAndNot16 {
+    IN in[16],nin,zin;
+    OUT out[16];
+
+    PARTS:
+    Mux16(a=in,sel=zin,out=maybezero);
+    Not16(in=maybezero,out=notin);
+    Mux16(a=maybezero,b=notin,sel=nin,out=out);
+
+}
