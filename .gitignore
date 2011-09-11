@@ -1,4 +1,4 @@
 *.out
 *.htm
 *.html
-
+*.DS_Store
